@@ -43,9 +43,9 @@ app.get('/search/:name', function(req, res) {
                 if (countArtists === artist.related.length) {
                     res.json(artist);
                 }
-                console.log('Check Complete hit');
-                console.log('countArtists = '+countArtists);
-                console.log('artist.related.length = '+artist.related.length);
+                //console.log('Check Complete hit');
+                //console.log('countArtists = '+countArtists);
+                //console.log('artist.related.length = '+artist.related.length);
             };
             
             //This was the attempt without using async module
